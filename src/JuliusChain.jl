@@ -1,16 +1,6 @@
 using Dates
 using SHA
 
-###TODO tasks:
-#save the blockchain somewhere
-#revisit maxBlocks
-#add transaction types
-#add wallets
-#distribute the work of adding blocks
-#block rewards
-#proof of work++ ;)
-#add smart contracts
-
 #structure of a block
 struct Block
     data::String

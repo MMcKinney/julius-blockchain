@@ -1,2 +1,3 @@
-# julius-blockchain
-another blockchain prototype
+### julius-blockchain
+
+A very simple blockchain example written in Julia
