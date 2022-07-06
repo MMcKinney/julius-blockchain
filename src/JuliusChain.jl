@@ -26,10 +26,10 @@ end
 #mine the genesis block
 Blockchain = [Block("The first block", 0, 0, "0", Dates.now())]
 
-#limit the length of the blockchain to demonstrate functionality
-maxBlocks = 13
-
 function demoBlockchain()
+    #how many blocks to generate
+    maxBlocks = 13;
+
     #add some blocks
     for tail = 1:maxBlocks
         append!(Blockchain, [appendBlock(Blockchain[tail])])
